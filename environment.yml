@@ -1,0 +1,6 @@
+name: prefect_logger_repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - prefect=0.13.8
