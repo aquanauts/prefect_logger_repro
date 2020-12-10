@@ -1,6 +1,7 @@
 import logging
+import sys
 
-
+logging.basicConfig(stream=sys.stdout)
 _LOGGER = logging.getLogger(__name__)
 
 def thing1():

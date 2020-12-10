@@ -5,13 +5,13 @@ from prefect.environments.storage import Docker
 
 from research.example_pkg import things
 
-@task
+@task(log_stdout=True)
 def run_thing1():
     if things.thing1():
         return True
 
 @task
-def run_thing2():
+def run_thing2(log_stdout=True):
     if things.thing2():
         return True
 
