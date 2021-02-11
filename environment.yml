@@ -3,4 +3,4 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7
-  - prefect=0.13.8
+  - prefect=0.14.7
